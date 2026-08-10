@@ -1,0 +1,67 @@
+```text
+WATER TANK LEVEL INDICATOR - OUTPUT
+
+--------------------------------
+Test 1 - Empty Tank
+--------------------------------
+
+Enter water tank level (0-100): 0
+
+Water Tank Level: 0%
+Tank Status: EMPTY
+Pump: ON
+
+
+--------------------------------
+Test 2 - Low Level
+--------------------------------
+
+Enter water tank level (0-100): 20
+
+Water Tank Level: 20%
+Tank Status: LOW
+Pump: ON
+
+
+--------------------------------
+Test 3 - Medium Level
+--------------------------------
+
+Enter water tank level (0-100): 45
+
+Water Tank Level: 45%
+Tank Status: MEDIUM
+Pump: OFF
+
+
+--------------------------------
+Test 4 - High Level
+--------------------------------
+
+Enter water tank level (0-100): 70
+
+Water Tank Level: 70%
+Tank Status: HIGH
+Pump: OFF
+
+
+--------------------------------
+Test 5 - Full Tank
+--------------------------------
+
+Enter water tank level (0-100): 90
+
+Water Tank Level: 90%
+Tank Status: FULL
+Pump: OFF
+
+
+--------------------------------
+Test 6 - Invalid Input
+--------------------------------
+
+Enter water tank level (0-100): 120
+
+Water Tank Level: 120%
+Invalid water level!
+```
